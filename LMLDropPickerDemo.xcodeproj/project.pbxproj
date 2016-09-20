@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4801563C1D91151D00D996B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4801563B1D91151D00D996B1 /* main.m */; };
+		4801563F1D91151D00D996B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4801563E1D91151D00D996B1 /* AppDelegate.m */; };
+		480156421D91151E00D996B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480156411D91151E00D996B1 /* ViewController.m */; };
+		480156451D91151E00D996B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480156431D91151E00D996B1 /* Main.storyboard */; };
+		480156471D91151E00D996B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480156461D91151E00D996B1 /* Assets.xcassets */; };
+		4801564A1D91151E00D996B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480156481D91151E00D996B1 /* LaunchScreen.storyboard */; };
+		480156551D91151E00D996B1 /* LMLDropPickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 480156541D91151E00D996B1 /* LMLDropPickerDemoTests.m */; };
+		480156601D91151E00D996B1 /* LMLDropPickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4801565F1D91151E00D996B1 /* LMLDropPickerDemoUITests.m */; };
+		480156771D91153D00D996B1 /* LMLDropPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4801566F1D91153D00D996B1 /* LMLDropPicker.m */; };
+		480156781D91153D00D996B1 /* LMLDropPickerTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 480156711D91153D00D996B1 /* LMLDropPickerTabCell.m */; };
+		480156791D91153D00D996B1 /* LMLDropPickerTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480156721D91153D00D996B1 /* LMLDropPickerTabCell.xib */; };
+		4801567A1D91153D00D996B1 /* PopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 480156741D91153D00D996B1 /* PopWindow.m */; };
+		4801567B1D91153D00D996B1 /* tupian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480156751D91153D00D996B1 /* tupian@2x.png */; };
+		4801567C1D91153D00D996B1 /* tupian@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480156761D91153D00D996B1 /* tupian@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		480156511D91151E00D996B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4801562F1D91151D00D996B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480156361D91151D00D996B1;
+			remoteInfo = LMLDropPickerDemo;
+		};
+		4801565C1D91151E00D996B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4801562F1D91151D00D996B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480156361D91151D00D996B1;
+			remoteInfo = LMLDropPickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		480156371D91151D00D996B1 /* LMLDropPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMLDropPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4801563B1D91151D00D996B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4801563D1D91151D00D996B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4801563E1D91151D00D996B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		480156401D91151E00D996B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		480156411D91151E00D996B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		480156441D91151E00D996B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		480156461D91151E00D996B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		480156491D91151E00D996B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4801564B1D91151E00D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480156501D91151E00D996B1 /* LMLDropPickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLDropPickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		480156541D91151E00D996B1 /* LMLDropPickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMLDropPickerDemoTests.m; sourceTree = "<group>"; };
+		480156561D91151E00D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4801565B1D91151E00D996B1 /* LMLDropPickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLDropPickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4801565F1D91151E00D996B1 /* LMLDropPickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMLDropPickerDemoUITests.m; sourceTree = "<group>"; };
+		480156611D91151E00D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4801566E1D91153D00D996B1 /* LMLDropPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLDropPicker.h; sourceTree = "<group>"; };
+		4801566F1D91153D00D996B1 /* LMLDropPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLDropPicker.m; sourceTree = "<group>"; };
+		480156701D91153D00D996B1 /* LMLDropPickerTabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLDropPickerTabCell.h; sourceTree = "<group>"; };
+		480156711D91153D00D996B1 /* LMLDropPickerTabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLDropPickerTabCell.m; sourceTree = "<group>"; };
+		480156721D91153D00D996B1 /* LMLDropPickerTabCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMLDropPickerTabCell.xib; sourceTree = "<group>"; };
+		480156731D91153D00D996B1 /* PopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopWindow.h; sourceTree = "<group>"; };
+		480156741D91153D00D996B1 /* PopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopWindow.m; sourceTree = "<group>"; };
+		480156751D91153D00D996B1 /* tupian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tupian@2x.png"; sourceTree = "<group>"; };
+		480156761D91153D00D996B1 /* tupian@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tupian@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		480156341D91151D00D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4801564D1D91151E00D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480156581D91151E00D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4801562E1D91151D00D996B1 = {
+			isa = PBXGroup;
+			children = (
+				4801566D1D91153D00D996B1 /* LMLDropPicker */,
+				480156391D91151D00D996B1 /* LMLDropPickerDemo */,
+				480156531D91151E00D996B1 /* LMLDropPickerDemoTests */,
+				4801565E1D91151E00D996B1 /* LMLDropPickerDemoUITests */,
+				480156381D91151D00D996B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		480156381D91151D00D996B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				480156371D91151D00D996B1 /* LMLDropPickerDemo.app */,
+				480156501D91151E00D996B1 /* LMLDropPickerDemoTests.xctest */,
+				4801565B1D91151E00D996B1 /* LMLDropPickerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		480156391D91151D00D996B1 /* LMLDropPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4801563D1D91151D00D996B1 /* AppDelegate.h */,
+				4801563E1D91151D00D996B1 /* AppDelegate.m */,
+				480156401D91151E00D996B1 /* ViewController.h */,
+				480156411D91151E00D996B1 /* ViewController.m */,
+				480156431D91151E00D996B1 /* Main.storyboard */,
+				480156461D91151E00D996B1 /* Assets.xcassets */,
+				480156481D91151E00D996B1 /* LaunchScreen.storyboard */,
+				4801564B1D91151E00D996B1 /* Info.plist */,
+				4801563A1D91151D00D996B1 /* Supporting Files */,
+			);
+			path = LMLDropPickerDemo;
+			sourceTree = "<group>";
+		};
+		4801563A1D91151D00D996B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4801563B1D91151D00D996B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		480156531D91151E00D996B1 /* LMLDropPickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				480156541D91151E00D996B1 /* LMLDropPickerDemoTests.m */,
+				480156561D91151E00D996B1 /* Info.plist */,
+			);
+			path = LMLDropPickerDemoTests;
+			sourceTree = "<group>";
+		};
+		4801565E1D91151E00D996B1 /* LMLDropPickerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4801565F1D91151E00D996B1 /* LMLDropPickerDemoUITests.m */,
+				480156611D91151E00D996B1 /* Info.plist */,
+			);
+			path = LMLDropPickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		4801566D1D91153D00D996B1 /* LMLDropPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4801566E1D91153D00D996B1 /* LMLDropPicker.h */,
+				4801566F1D91153D00D996B1 /* LMLDropPicker.m */,
+				480156701D91153D00D996B1 /* LMLDropPickerTabCell.h */,
+				480156711D91153D00D996B1 /* LMLDropPickerTabCell.m */,
+				480156721D91153D00D996B1 /* LMLDropPickerTabCell.xib */,
+				480156731D91153D00D996B1 /* PopWindow.h */,
+				480156741D91153D00D996B1 /* PopWindow.m */,
+				480156751D91153D00D996B1 /* tupian@2x.png */,
+				480156761D91153D00D996B1 /* tupian@3x.png */,
+			);
+			path = LMLDropPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		480156361D91151D00D996B1 /* LMLDropPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480156641D91151F00D996B1 /* Build configuration list for PBXNativeTarget "LMLDropPickerDemo" */;
+			buildPhases = (
+				480156331D91151D00D996B1 /* Sources */,
+				480156341D91151D00D996B1 /* Frameworks */,
+				480156351D91151D00D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMLDropPickerDemo;
+			productName = LMLDropPickerDemo;
+			productReference = 480156371D91151D00D996B1 /* LMLDropPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4801564F1D91151E00D996B1 /* LMLDropPickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480156671D91151F00D996B1 /* Build configuration list for PBXNativeTarget "LMLDropPickerDemoTests" */;
+			buildPhases = (
+				4801564C1D91151E00D996B1 /* Sources */,
+				4801564D1D91151E00D996B1 /* Frameworks */,
+				4801564E1D91151E00D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480156521D91151E00D996B1 /* PBXTargetDependency */,
+			);
+			name = LMLDropPickerDemoTests;
+			productName = LMLDropPickerDemoTests;
+			productReference = 480156501D91151E00D996B1 /* LMLDropPickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4801565A1D91151E00D996B1 /* LMLDropPickerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4801566A1D91151F00D996B1 /* Build configuration list for PBXNativeTarget "LMLDropPickerDemoUITests" */;
+			buildPhases = (
+				480156571D91151E00D996B1 /* Sources */,
+				480156581D91151E00D996B1 /* Frameworks */,
+				480156591D91151E00D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4801565D1D91151E00D996B1 /* PBXTargetDependency */,
+			);
+			name = LMLDropPickerDemoUITests;
+			productName = LMLDropPickerDemoUITests;
+			productReference = 4801565B1D91151E00D996B1 /* LMLDropPickerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4801562F1D91151D00D996B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "优谱德";
+				TargetAttributes = {
+					480156361D91151D00D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4801564F1D91151E00D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 480156361D91151D00D996B1;
+					};
+					4801565A1D91151E00D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 480156361D91151D00D996B1;
+					};
+				};
+			};
+			buildConfigurationList = 480156321D91151D00D996B1 /* Build configuration list for PBXProject "LMLDropPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4801562E1D91151D00D996B1;
+			productRefGroup = 480156381D91151D00D996B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				480156361D91151D00D996B1 /* LMLDropPickerDemo */,
+				4801564F1D91151E00D996B1 /* LMLDropPickerDemoTests */,
+				4801565A1D91151E00D996B1 /* LMLDropPickerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		480156351D91151D00D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480156791D91153D00D996B1 /* LMLDropPickerTabCell.xib in Resources */,
+				4801564A1D91151E00D996B1 /* LaunchScreen.storyboard in Resources */,
+				480156471D91151E00D996B1 /* Assets.xcassets in Resources */,
+				480156451D91151E00D996B1 /* Main.storyboard in Resources */,
+				4801567C1D91153D00D996B1 /* tupian@3x.png in Resources */,
+				4801567B1D91153D00D996B1 /* tupian@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4801564E1D91151E00D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480156591D91151E00D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		480156331D91151D00D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480156421D91151E00D996B1 /* ViewController.m in Sources */,
+				4801567A1D91153D00D996B1 /* PopWindow.m in Sources */,
+				4801563F1D91151D00D996B1 /* AppDelegate.m in Sources */,
+				480156781D91153D00D996B1 /* LMLDropPickerTabCell.m in Sources */,
+				480156771D91153D00D996B1 /* LMLDropPicker.m in Sources */,
+				4801563C1D91151D00D996B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4801564C1D91151E00D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480156551D91151E00D996B1 /* LMLDropPickerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480156571D91151E00D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480156601D91151E00D996B1 /* LMLDropPickerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		480156521D91151E00D996B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480156361D91151D00D996B1 /* LMLDropPickerDemo */;
+			targetProxy = 480156511D91151E00D996B1 /* PBXContainerItemProxy */;
+		};
+		4801565D1D91151E00D996B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480156361D91151D00D996B1 /* LMLDropPickerDemo */;
+			targetProxy = 4801565C1D91151E00D996B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		480156431D91151E00D996B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480156441D91151E00D996B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		480156481D91151E00D996B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480156491D91151E00D996B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		480156621D91151F00D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		480156631D91151F00D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		480156651D91151F00D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMLDropPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLDropPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		480156661D91151F00D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMLDropPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLDropPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		480156681D91151F00D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMLDropPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLDropPickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMLDropPickerDemo.app/LMLDropPickerDemo";
+			};
+			name = Debug;
+		};
+		480156691D91151F00D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMLDropPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLDropPickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMLDropPickerDemo.app/LMLDropPickerDemo";
+			};
+			name = Release;
+		};
+		4801566B1D91151F00D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMLDropPickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLDropPickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMLDropPickerDemo;
+			};
+			name = Debug;
+		};
+		4801566C1D91151F00D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMLDropPickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLDropPickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMLDropPickerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		480156321D91151D00D996B1 /* Build configuration list for PBXProject "LMLDropPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480156621D91151F00D996B1 /* Debug */,
+				480156631D91151F00D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480156641D91151F00D996B1 /* Build configuration list for PBXNativeTarget "LMLDropPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480156651D91151F00D996B1 /* Debug */,
+				480156661D91151F00D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		480156671D91151F00D996B1 /* Build configuration list for PBXNativeTarget "LMLDropPickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480156681D91151F00D996B1 /* Debug */,
+				480156691D91151F00D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4801566A1D91151F00D996B1 /* Build configuration list for PBXNativeTarget "LMLDropPickerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4801566B1D91151F00D996B1 /* Debug */,
+				4801566C1D91151F00D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4801562F1D91151D00D996B1 /* Project object */;
+}
